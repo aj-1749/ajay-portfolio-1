@@ -1,0 +1,39 @@
+Started by user [8mha:////4I+rB5VPfH+SGaTdt9PJa1xxyDGG8Gvtt1lPiVaUHXUjAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgYe/dLi1CL9xKzESiNTAC34zPXBAAAA[0mAJAY GUPTA
+[Sun Jul 28 12:19:27 UTC 2024] Starting branch indexing...
+ > git --version # timeout=10
+ > git --version # 'git version 2.43.0'
+ > git ls-remote --symref -- https://github.com/aj-1749/BoardgameListingWebApp.git # timeout=10
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/caches/git-9735a2cadbfb10092629a96206d3c321/.git # timeout=10
+Setting origin to https://github.com/aj-1749/BoardgameListingWebApp.git
+ > git config remote.origin.url https://github.com/aj-1749/BoardgameListingWebApp.git # timeout=10
+Fetching & pruning origin...
+Listing remote references...
+ > git config --get remote.origin.url # timeout=10
+ > git --version # timeout=10
+ > git --version # 'git version 2.43.0'
+ > git ls-remote -h -- https://github.com/aj-1749/BoardgameListingWebApp.git # timeout=10
+Fetching upstream changes from origin
+ > git config --get remote.origin.url # timeout=10
+ > git fetch --tags --force --progress --prune -- origin +refs/heads/*:refs/remotes/origin/* # timeout=10
+Checking branches...
+  Checking branch dr
+      ‘Jenkinsfile1’ not found
+    Does not meet criteria
+  Checking branch qa
+      ‘Jenkinsfile1’ found
+    Met criteria
+Scheduled build for branch: qa
+  Checking branch master
+      ‘Jenkinsfile1’ found
+    Met criteria
+Scheduled build for branch: master
+  Checking branch xyz
+      ‘Jenkinsfile1’ not found
+    Does not meet criteria
+  Checking branch ppd
+      ‘Jenkinsfile1’ found
+    Met criteria
+Scheduled build for branch: ppd
+Processed 5 branches
+[Sun Jul 28 12:19:28 UTC 2024] Finished branch indexing. Indexing took 1.9 sec
+Finished: SUCCESS

@@ -1,0 +1,38 @@
+Started
+[Sun Jul 28 11:15:40 UTC 2024] Starting branch indexing...
+ > git --version # timeout=10
+ > git --version # 'git version 2.43.0'
+ > git ls-remote --symref -- https://github.com/aj-1749/BoardgameListingWebApp.git # timeout=10
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/caches/git-9735a2cadbfb10092629a96206d3c321/.git # timeout=10
+Setting origin to https://github.com/aj-1749/BoardgameListingWebApp.git
+ > git config remote.origin.url https://github.com/aj-1749/BoardgameListingWebApp.git # timeout=10
+Fetching & pruning origin...
+Listing remote references...
+ > git config --get remote.origin.url # timeout=10
+ > git --version # timeout=10
+ > git --version # 'git version 2.43.0'
+ > git ls-remote -h -- https://github.com/aj-1749/BoardgameListingWebApp.git # timeout=10
+Fetching upstream changes from origin
+ > git config --get remote.origin.url # timeout=10
+ > git fetch --tags --force --progress --prune -- origin +refs/heads/*:refs/remotes/origin/* # timeout=10
+Checking branches...
+  Checking branch feature/feature-3
+      ‘Jenkinsfile1’ found
+    Met criteria
+No changes detected: feature/feature-3 (still at eb4ce133c62a9827cd8eb8bcdec16ccef12936db)
+  Checking branch master
+      ‘Jenkinsfile1’ found
+    Met criteria
+Changes detected: master (7bb5bf49a197302044680e86459e796e59747dec → 234d14f2127c463d09dff59b0b98366570091e16)
+Scheduled build for branch: master
+  Checking branch feature/feature-2
+      ‘Jenkinsfile1’ found
+    Met criteria
+No changes detected: feature/feature-2 (still at 9e31eeeeba507fc6b7525be91966854a10e8508c)
+  Checking branch feature/feature-1
+      ‘Jenkinsfile1’ found
+    Met criteria
+No changes detected: feature/feature-1 (still at d51f97293442fd23332c6a2baf04fa7c3dfc4753)
+Processed 4 branches
+[Sun Jul 28 11:15:42 UTC 2024] Finished branch indexing. Indexing took 1.8 sec
+Finished: SUCCESS
